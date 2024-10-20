@@ -1,0 +1,36 @@
+.banner{
+	background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.1) 50%), url("../../images/Portugal/solo.JPG");
+	color: white;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+	width:100%;
+	margin:0;
+}
+.banner #japan{
+	background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.1) 50%), url("../../images/Japan/wet_gate.JPG");
+	color: white;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner #japan{
+	background-image: linear-gradient(-225deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.1) 50%), url("../../images/Croatia/walking_away.JPG");
+	color: white;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner h1{
+	font-size: 50px;
+}
+
+.banner h2{
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.6;
+	margin-bottom: 42px;
+}
+

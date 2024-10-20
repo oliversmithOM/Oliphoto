@@ -1,0 +1,96 @@
+
+.card{
+	padding: 20px;
+	justify-content: center;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+	margin: 20px 0px;
+	position: relative;
+}
+
+.card:hover {
+	transform: scale(1.05);
+	transition: transform 0.3s ease;
+}
+
+.hover-text {
+    opacity: 0; /* Hidden by default */
+    font-family: Lora, sans-serif;
+    font-size: 18px;
+    color: white;
+    transition: opacity 0.3s ease; /* Smooth fade-in effect */
+    margin-top: 10px; /* Space between h3 and the text */
+}
+
+
+
+
+#japan:hover .hover-text {
+    opacity: 1; /* Makes the text visible on hover */
+}
+
+#croatia:hover .hover-text {
+    opacity: 1; /* Makes the text visible on hover */
+}
+
+#portugal:hover .hover-text {
+    opacity: 1; /* Makes the text visible on hover */
+}
+
+#japan h3{
+	font-family: Kavivanar;
+  	font-weight: bolder;
+  	font-style: italic;
+  	font-size: 35px;
+}
+#japan{
+	background-image: url("../../images/Japan/wet_gate.jpg");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: white;
+	font-family: Kavivanar;
+  	font-weight: bolder;
+  	font-style: italic;
+  	font-size: 35px;
+}
+
+
+
+#croatia{
+	background-image: url("../../images/Croatia/far.JPG");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: white;
+  	font-family: Kavivanar;
+  	font-weight: bolder;
+  	font-style: italic;
+  	font-size: 35px;
+}
+
+#croatia h3{
+	font-family: Kavivanar;
+  	font-weight: bolder;
+  	font-style: italic;
+  	font-size: 35px;
+}
+
+#portugal{
+	background-image: url("../../images/Portugal/running.JPG");
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	color: white;
+  	font-family: Kavivanar;
+  	font-weight: bolder;
+  	font-style: italic;
+  	font-size: 35px;
+}
+
+#portugal h3{
+	font-family: Kavivanar;
+  	font-weight: bolder;
+  	font-style: italic;
+  	font-size: 35px;
+}

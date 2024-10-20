@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css?family:Lora|Roboto|Kavivanar");
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 20px;
+  padding: 0;
+}
+
+.gallery-item {
+  position: relative; /* Needed for positioning the hover text */
+  overflow: hidden;
+  max-width: 100%; /* Ensure gallery items don't exceed the screen width */
+  margin-bottom: 20px;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto; /* Keep the image's aspect ratio intact */
+  display: block;
+  max-height: 80vh; /* Prevent images from exceeding 80% of the viewport height */
+  border-radius: 1%;
+}
+
+.gallery-item img.vertical {
+  object-fit: contain;
+}
+
+.gallery-item img.horizontal {
+  object-fit: contain;
+}
+
+/* Hidden text that will appear on hover */
+
+
+/* Show text when hovering over the image */
+.gallery-item:hover .hover-text {
+  opacity: 1;
+}
+
+#image-shown{
+  text-align: center;
+  color: black;
+  font-family: lora;
+}
+
+
+/* Responsive layout for larger screens */
+@media (min-width: 768px) {
+  .gallery-item {
+    max-width: 50%; /* Limit gallery item to 50% width on larger screens */
+  }
+}
